@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CBDA3555203B69EF00E2BFFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA3554203B69EF00E2BFFB /* AppDelegate.swift */; };
-		CBDA3557203B69EF00E2BFFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA3556203B69EF00E2BFFB /* ViewController.swift */; };
+		CBDA3557203B69EF00E2BFFB /* SOSBattleCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA3556203B69EF00E2BFFB /* SOSBattleCounterViewController.swift */; };
 		CBDA355A203B69EF00E2BFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDA3558203B69EF00E2BFFB /* Main.storyboard */; };
 		CBDA355D203B69EF00E2BFFB /* SOSBattleCounter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBDA355B203B69EF00E2BFFB /* SOSBattleCounter.xcdatamodeld */; };
 		CBDA355F203B69EF00E2BFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDA355E203B69EF00E2BFFB /* Assets.xcassets */; };
 		CBDA3562203B69EF00E2BFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDA3560203B69EF00E2BFFB /* LaunchScreen.storyboard */; };
 		CBDA356D203B69EF00E2BFFB /* SOSBattleCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA356C203B69EF00E2BFFB /* SOSBattleCounterTests.swift */; };
 		CBDA3578203B69EF00E2BFFB /* SOSBattleCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA3577203B69EF00E2BFFB /* SOSBattleCounterUITests.swift */; };
+		CBDA3586203BB3C800E2BFFB /* SOSBattleCounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA3585203BB3C800E2BFFB /* SOSBattleCounterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		CBDA3551203B69EF00E2BFFB /* SOSBattleCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOSBattleCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDA3554203B69EF00E2BFFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBDA3556203B69EF00E2BFFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBDA3556203B69EF00E2BFFB /* SOSBattleCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSBattleCounterViewController.swift; sourceTree = "<group>"; };
 		CBDA3559203B69EF00E2BFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBDA355C203B69EF00E2BFFB /* SOSBattleCounter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SOSBattleCounter.xcdatamodel; sourceTree = "<group>"; };
 		CBDA355E203B69EF00E2BFFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		CBDA3573203B69EF00E2BFFB /* SOSBattleCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOSBattleCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDA3577203B69EF00E2BFFB /* SOSBattleCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSBattleCounterUITests.swift; sourceTree = "<group>"; };
 		CBDA3579203B69EF00E2BFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDA3585203BB3C800E2BFFB /* SOSBattleCounterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSBattleCounterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				CBDA3554203B69EF00E2BFFB /* AppDelegate.swift */,
-				CBDA3556203B69EF00E2BFFB /* ViewController.swift */,
+				CBDA3556203B69EF00E2BFFB /* SOSBattleCounterViewController.swift */,
+				CBDA3585203BB3C800E2BFFB /* SOSBattleCounterModel.swift */,
 				CBDA3558203B69EF00E2BFFB /* Main.storyboard */,
 				CBDA355E203B69EF00E2BFFB /* Assets.xcassets */,
 				CBDA3560203B69EF00E2BFFB /* LaunchScreen.storyboard */,
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBDA3557203B69EF00E2BFFB /* ViewController.swift in Sources */,
+				CBDA3586203BB3C800E2BFFB /* SOSBattleCounterModel.swift in Sources */,
+				CBDA3557203B69EF00E2BFFB /* SOSBattleCounterViewController.swift in Sources */,
 				CBDA3555203B69EF00E2BFFB /* AppDelegate.swift in Sources */,
 				CBDA355D203B69EF00E2BFFB /* SOSBattleCounter.xcdatamodeld in Sources */,
 			);
