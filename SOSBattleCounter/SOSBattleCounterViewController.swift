@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SOSBattleCounterViewController.swift
 //  SOSBattleCounter
 //
 //  Created by Tengoku no Spoa on 2018/2/19.
